@@ -13,15 +13,13 @@
             ]
         },
         {
-            "nome": "Automação e Dashboard de Testes de Software",
-            "tecnologias": ["Python", "Power BI", "AWS"],
-            "situacao": "Cliente necessitava de uma solução para monitorar equipamentos em tempo real e gerar relatórios automatizados.",
-            "acao": "Desenvolvemos um dashboard interativo com monitoramento em tempo real, alertas personalizados e geração automática de relatórios.",
-            "resultado": "Redução de 40% no tempo de resposta a incidentes e aumento de 25% na eficiência operacional.",
+            "nome": "Automação de Conexão e Extração de Informações de banco de Dados em Núvem",
+            "tecnologias": ["Python", "SQL", "AWS"],
+            "situacao": "A empresa enfrentava desafios na extração manual e no tempo de resposta para coleta de dados de grandes volumes em bancos de dados hospedados na nuvem.",
+            "acao": "Desenvolvi uma automação usando Python para a conexão via SSH e extração de informações diretamente dos bancos de dados na nuvem AWS.",
+            "resultado": "Reduziu o tempo de coleta de dados em 83,4%, impactando significativamente os processos de coleção de dados.",
             "imagens": [
-                "./projetos/salgados/coxinha.png",
-                "./projetos/salgados/empada.png",
-                "./projetos/salgados/pastel.png"
+                "./assets/img/projetos/automacao-banco/automacao-banco-1.png"
             ]
         },
         {
@@ -37,14 +35,12 @@
         },
         {
             "nome": "Automação de Conversão e Importação de Dados",
-            "tecnologias": ["Python", "SQL", "AWS"],
-            "situacao": "Cliente necessitava de uma solução para monitorar equipamentos em tempo real e gerar relatórios automatizados.",
-            "acao": "Desenvolvemos um dashboard interativo com monitoramento em tempo real, alertas personalizados e geração automática de relatórios.",
-            "resultado": "Redução de 40% no tempo de resposta a incidentes e aumento de 25% na eficiência operacional.",
+            "tecnologias": ["Python"],
+            "situacao": "Durante um período de migração de sistema, o processo de importação de dados para o novo sistema estava sendo feito manualmente, o que gerava um alto custo de tempo e esforço humano.",
+            "acao": "Desenvolvi uma solução que realizava web scraping usando Selenium na interface do sistema antigo, extraindo as informações necessárias, salvando-as em um arquivo CSV e, em seguida, importando automaticamente esse CSV para uma funcionalidade nativa do novo sistema.",
+            "resultado": "A solução resultou em um aumento de produtividade de 60% e eliminou mais de 90% da intervenção manual no processo de importação de dados.",
             "imagens": [
-                "./projetos/salgados/coxinha.png",
-                "./projetos/salgados/empada.png",
-                "./projetos/salgados/pastel.png"
+                "./assets/img/projetos/automacao-importacao-dados/automacao-importacao-dados-1.png"
             ]
         },
         {
