@@ -1,0 +1,75 @@
+{
+    "projetos": [
+        {
+            "nome": "Sistema e Dashboard de Monitoramento de Clientes",
+            "tecnologias": ["Python", "SQL", "AWS"],
+            "situacao": "Era necessário desenvolver uma solução para monitorar a conexão de mais de 2500 equipamentos de clientes em tempo real.",
+            "acao": "Desenvolvi um dashboard integrado a um sistema web por meio de APIs, com monitoramento em tempo real, alertas personalizados via email usando SNS e SQS e geração automática de relatórios.",
+            "resultado": "Reduziu o tempo de instabilidade e inoperabilidade dos equipamentos em 90%.",
+            "imagens": [
+                "./assets/img/projetos/dashboard-equipamentos/dashboard-equipamentos-1.png",
+                "./assets/img/projetos/dashboard-equipamentos/dashboard-equipamentos-2.png",
+                "./assets/img/projetos/dashboard-equipamentos/dashboard-equipamentos-3.png"
+            ]
+        },
+        {
+            "nome": "Automação e Dashboard de Testes de Software",
+            "tecnologias": ["Python", "Power BI", "AWS"],
+            "situacao": "Cliente necessitava de uma solução para monitorar equipamentos em tempo real e gerar relatórios automatizados.",
+            "acao": "Desenvolvemos um dashboard interativo com monitoramento em tempo real, alertas personalizados e geração automática de relatórios.",
+            "resultado": "Redução de 40% no tempo de resposta a incidentes e aumento de 25% na eficiência operacional.",
+            "imagens": [
+                "./projetos/salgados/coxinha.png",
+                "./projetos/salgados/empada.png",
+                "./projetos/salgados/pastel.png"
+            ]
+        },
+        {
+            "nome": "Web Scraping de Dados para Exportação",
+            "tecnologias": ["Python"],
+            "situacao": "Durante um período de migração de sistemas, claboradores internos necessitavam de uma solução para exportar dados de um sistema legado para um novo sistema.",
+            "acao": "Desenvolvi um script de web scraping que pegava dados da interface web do sistema legado e os tratava, para inserir as informações no novo sistema.",
+            "resultado": "Reduziu o tempo de coleta, tratamento e importação de dados em 83,4%.",
+            "imagens": [
+                "./assets/img/projetos/executavel-importacao/executavel-importacao-1.png",
+                "./assets/img/projetos/executavel-importacao/executavel-importacao-2.png"
+            ]
+        },
+        {
+            "nome": "Automação de Conversão e Importação de Dados",
+            "tecnologias": ["Python", "SQL", "AWS"],
+            "situacao": "Cliente necessitava de uma solução para monitorar equipamentos em tempo real e gerar relatórios automatizados.",
+            "acao": "Desenvolvemos um dashboard interativo com monitoramento em tempo real, alertas personalizados e geração automática de relatórios.",
+            "resultado": "Redução de 40% no tempo de resposta a incidentes e aumento de 25% na eficiência operacional.",
+            "imagens": [
+                "./projetos/salgados/coxinha.png",
+                "./projetos/salgados/empada.png",
+                "./projetos/salgados/pastel.png"
+            ]
+        },
+        {
+            "nome": "Dashboard de Controle de Chamados de Q.A.",
+            "tecnologias": ["Python"],
+            "situacao": "Necessidade de  monitorar e analisar os chamados de Q.A de forma eficiente e interativa.",
+            "acao": "Desenvolvi um script que realizava web scraping utilizando Python na plataforma para coletar os dados dos chamados. Esses dados foram tratados e convertidos em CSV. Em seguida, foi desenvolvido um dashboard web usando Dash e Plotly para visualização interativa das informações.",
+            "resultado": "Proporcionou uma visualização clara e dinâmica dos chamados de Q.A, facilitando o acompanhamento e a análise das métricas, o que contribuiu para otimizar o processo de gestão e resolução de problemas.",
+            "imagens": [
+                "./assets/img/projetos/dashboard-chamados/dashboard-chamados-1.png",
+                "./assets/img/projetos/dashboard-chamados/dashboard-chamados-2.png",
+                "./assets/img/projetos/dashboard-chamados/dashboard-chamados-3.png"
+            ]
+        },
+        {
+            "nome": "Dashboard sobre Redes Sociais e Privacidade na Internet",
+            "tecnologias": ["Power BI"],
+            "situacao": "Era necessário entender a percepção dos usuários sobre o impacto das redes sociais na privacidade online. ",
+            "acao": "Foi elaborado e disponibilizado um questionário, seguido pelo tratamento dos dados e análise estatística. Com base nos resultados, foi criado um dashboard interativo no Power BI para visualização das métricas.",
+            "resultado": "A análise revelou insights sobre as preocupações dos usuários com a privacidade nas redes sociais, fornecendo informações valiosas para aprimorar posíveis políticas de privacidade e estratégias digitais.",
+            "imagens": [
+                "./assets/img/projetos/dashboard-redes-sociais/dashboard-redes-sociais-1.jpg",
+                "./assets/img/projetos/dashboard-redes-sociais/dashboard-redes-sociais-2.jpg",
+                "./assets/img/projetos/dashboard-redes-sociais/dashboard-redes-sociais-3.jpg"
+            ]
+        }
+    ]
+}

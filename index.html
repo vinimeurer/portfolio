@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Projetos</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meus Projetos</h1>
+        
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar projeto..." class="search-input">
+        </div>
+        
+        <div class="tags-container">
+            <div id="tags-list" class="tags-list"></div>
+            <button id="clear-filters" class="clear-filters-btn" style="display: none;">
+                Limpar filtros
+            </button>
+        </div>
+        
+        <div class="projects-grid" id="projects-container">
+            <!-- Projects will be inserted here by JavaScript -->
+        </div>
+
+        <div class="whatsapp-button">
+            <a href="#" target="_blank">
+                <i class="fa-regular fa-envelope"></i>
+                    Contate-me!
+                <!-- Não encontrou o que precisa? Entre em contato para um pedido personalizado -->
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Modal content will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
