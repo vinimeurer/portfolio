@@ -24,7 +24,7 @@
         },
         {
             "nome": "Automação de Conversão e Geração de Inserts SQL",
-            "tecnologias": ["Python"],
+            "tecnologias": ["Python", "SQL"],
             "situacao": "Durante um período de migração de sistemas, colaboradores internos necessitavam de uma solução para converter e exportar dados relativos a horários de controle de acesso em larga escala para bancos de dados de clientes.",
             "acao": "Desenvolvi uma solução de automação Python usando Arquitetura Medallion integrada com planilhas Excel, que extraia as informações necessárias, realizava o processamento, geração e inserts diretamente nos bancos de dados de clientes. A solução foi integrada com um executável que permitia a execução do processo de forma simples e rápida.",
             "resultado": "Reduziu o tempo de coleta, tratamento e importação de dados em 83,4%.",
