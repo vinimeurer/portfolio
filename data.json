@@ -23,10 +23,10 @@
             ]
         },
         {
-            "nome": "Web Scraping de Dados para Exportação",
+            "nome": "Automação de Conversão e Geração de Inserts SQL",
             "tecnologias": ["Python"],
-            "situacao": "Durante um período de migração de sistemas, claboradores internos necessitavam de uma solução para exportar dados de um sistema legado para um novo sistema.",
-            "acao": "Desenvolvi um script de web scraping que pegava dados da interface web do sistema legado e os tratava, para inserir as informações no novo sistema.",
+            "situacao": "Durante um período de migração de sistemas, colaboradores internos necessitavam de uma solução para converter e exportar dados relativos a horários de controle de acesso em larga escala para bancos de dados de clientes.",
+            "acao": "Desenvolvi uma solução de automação Python usando Arquitetura Medallion integrada com planilhas Excel, que extraia as informações necessárias, realizava o processamento, geração e inserts diretamente nos bancos de dados de clientes. A solução foi integrada com um executável que permitia a execução do processo de forma simples e rápida.",
             "resultado": "Reduziu o tempo de coleta, tratamento e importação de dados em 83,4%.",
             "imagens": [
                 "./assets/img/projetos/executavel-importacao/executavel-importacao-1.png",
@@ -36,7 +36,7 @@
         {
             "nome": "Automação de Conversão e Importação de Dados",
             "tecnologias": ["Python"],
-            "situacao": "Durante um período de migração de sistema, o processo de importação de dados para o novo sistema estava sendo feito manualmente, o que gerava um alto custo de tempo e esforço humano.",
+            "situacao": "Durante um período de migração de sistemas, o processo de importação de dados para o novo sistema estava sendo feito manualmente, o que gerava um alto custo de tempo e esforço humano.",
             "acao": "Desenvolvi uma solução que realizava web scraping usando Selenium na interface do sistema antigo, extraindo as informações necessárias, salvando-as em um arquivo CSV e, em seguida, importando automaticamente esse CSV para uma funcionalidade nativa do novo sistema.",
             "resultado": "A solução resultou em um aumento de produtividade de 60% e eliminou mais de 90% da intervenção manual no processo de importação de dados.",
             "imagens": [
